@@ -63,7 +63,7 @@ def play_round():
         if used == max_chances:
             break
 
-        hint = "小了" if guess < answer else "大了"
+        hint = "小" if guess < answer else "大"
         print(f"猜{hint}了，还剩 {max_chances - used} 次机会。\n")
 
     print(f"很遗憾，机会用完了。正确答案是 {answer}。")
@@ -92,5 +92,5 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, EOFError):
         print("\n\n游戏已退出，再见！")
