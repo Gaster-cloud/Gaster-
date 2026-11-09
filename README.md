@@ -19,7 +19,7 @@
 
    ```bash
    # 方式一：用 git 克隆（推荐）
-   git clone https://github.com/Gaster-cloud/guess-number.git
+   git clone https://github.com/Gaster-cloud/Gaster-.git
 
    # 方式二：在 GitHub 网页上点 Code -> Download ZIP，解压即可
    ```
